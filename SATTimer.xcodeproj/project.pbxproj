@@ -17,6 +17,8 @@
 		66DB542B1ACEF34E0033172A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DB542A1ACEF34E0033172A /* Images.xcassets */; };
 		66DB542E1ACEF34E0033172A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66DB542C1ACEF34E0033172A /* LaunchScreen.xib */; };
 		66DB543A1ACEF34E0033172A /* SATTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DB54391ACEF34E0033172A /* SATTimerTests.swift */; };
+		985C9F441B065969005C5B61 /* ProctorTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985C9F431B065969005C5B61 /* ProctorTestViewController.swift */; };
+		989517191B051ED700F7E5E6 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989517181B051ED700F7E5E6 /* PracticeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		66DB54331ACEF34E0033172A /* SATTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DB54381ACEF34E0033172A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66DB54391ACEF34E0033172A /* SATTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATTimerTests.swift; sourceTree = "<group>"; };
+		985C9F431B065969005C5B61 /* ProctorTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProctorTestViewController.swift; sourceTree = "<group>"; };
+		989517181B051ED700F7E5E6 /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PracticeViewController.swift; path = SATTimer.xcodeproj/../PracticeViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,9 @@
 				66DB54211ACEF34D0033172A /* AppDelegate.swift */,
 				66DB54231ACEF34D0033172A /* FirstViewController.swift */,
 				66DB54251ACEF34D0033172A /* SecondViewController.swift */,
+				985C9F431B065969005C5B61 /* ProctorTestViewController.swift */,
 				668B59A31ADD6F9900A729F1 /* TimerViewController.swift */,
+				989517181B051ED700F7E5E6 /* PracticeViewController.swift */,
 				668B59D51AE8647A00A729F1 /* scorehistory.swift */,
 				668B59D31AE1702E00A729F1 /* ScoreViewController.swift */,
 				66DB54271ACEF34D0033172A /* Main.storyboard */,
@@ -226,7 +232,9 @@
 			files = (
 				668B59A41ADD6F9900A729F1 /* TimerViewController.swift in Sources */,
 				668B59D61AE8647A00A729F1 /* scorehistory.swift in Sources */,
+				985C9F441B065969005C5B61 /* ProctorTestViewController.swift in Sources */,
 				66DB54261ACEF34D0033172A /* SecondViewController.swift in Sources */,
+				989517191B051ED700F7E5E6 /* PracticeViewController.swift in Sources */,
 				668B59D41AE1702E00A729F1 /* ScoreViewController.swift in Sources */,
 				66DB54221ACEF34D0033172A /* AppDelegate.swift in Sources */,
 				66DB54241ACEF34D0033172A /* FirstViewController.swift in Sources */,
